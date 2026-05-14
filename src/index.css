@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cinnamon: #D2691E;
+  --color-gold: #FFC107;
+  --color-charcoal: #333333;
+  --color-offwhite: #F9F9F9;
+  
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-serif: 'Georgia', serif;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
